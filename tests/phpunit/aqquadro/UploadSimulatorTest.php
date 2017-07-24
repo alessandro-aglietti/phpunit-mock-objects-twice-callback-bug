@@ -41,7 +41,7 @@ class UploadSimulatorTest extends PHPUnit\Framework\TestCase
 
         $calls_count = 0;
 
-        $uploader_mock->expects($this->exactly(2))
+        $uploader_mock->expects($this->exactly(1))
             ->method('upload')
             ->withConsecutive(
                 [
