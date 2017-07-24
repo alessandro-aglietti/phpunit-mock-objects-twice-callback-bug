@@ -1,0 +1,19 @@
+{
+    "name": "aqquadro/phpunit-mock-objects-twice-callback-issue",
+    "authors": [
+        {
+            "name": "Alessandro Aglietti",
+            "email": "alessandro.aglietti@gmail.com"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "aqquadro\\": "src/aqquadro"
+        }
+    }
+}
